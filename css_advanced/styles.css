@@ -375,3 +375,164 @@ nav a:hover {
     border-bottom: 8px solid transparent;
     margin-left: 3px;
 }
+
+/* ===== MEMBERSHIP SECTION STYLES ===== */
+.membership {
+    background: var(--secondary-color);
+    padding: 70px 0 88px;
+    text-align: center;
+    color: var(--white);
+}
+
+.membership h2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 65px;
+
+}
+
+.membership-benefits {
+    display: flex;
+    gap: 58px;
+    justify-content: center;
+    max-width: 1006px;
+    margin: 0 auto 87px;
+    padding: 0 20px;
+}
+
+.benefit-card {
+    width: 207px;
+    text-align: center;
+}
+
+.benefit-icon {
+    margin-bottom: 26px;
+}
+
+.benefit-icon i {
+    color: var(--primary-color);
+    font-size: 94px;
+}
+
+.benefit-card h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 13px;
+}
+
+.benefit-card p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    opacity: 0.8;
+}
+/* ===== FAQ SECTION STYLES ===== */
+.faq {
+    background: var(--white);
+    padding: 67px 0 83px;
+    text-align: center;
+}
+
+.faq h2 {
+    color: var(--secondary-color);
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 80px;
+}
+
+.faq-container {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    max-width: 920px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-column {
+    width: 350px;
+}
+
+.faq-item {
+    margin-bottom: 40px;
+}
+
+.faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq-item h3 {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.faq-item p {
+    color: rgba(7, 22, 41, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* ===== FOOTER STYLES ===== */
+footer {
+    background: var(--secondary-color);
+    padding: 40px 0 39px;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 39px;
+}
+
+.footer-info img {
+    width: 167px;
+    height: 32px;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+}
+
+.social-media a {
+    color: var(--white);
+    font-size: 30px;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.social-media a:hover {
+    opacity: 0.7;
+}
+
+.smile-logo {
+    display: flex
+}
+
+.smile.logo img {
+    width: 5px;
+    height: 10px
+}
+
+footer p {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    opacity: 0.35;
+}
